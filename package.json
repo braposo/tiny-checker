@@ -1,0 +1,59 @@
+{
+    "version": "0.1.0",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+        "dist",
+        "src"
+    ],
+    "engines": {
+        "node": ">=10"
+    },
+    "scripts": {
+        "start": "tsdx watch",
+        "build": "tsdx build",
+        "test": "tsdx test",
+        "lint": "tsdx lint",
+        "prepare": "tsdx build"
+    },
+    "peerDependencies": {},
+    "husky": {
+        "hooks": {
+            "pre-commit": "tsdx lint"
+        }
+    },
+    "prettier": {
+        "printWidth": 80,
+        "tabWidth": 4,
+        "useTabs": false,
+        "semi": true,
+        "singleQuote": false,
+        "trailingComma": "es5",
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false,
+        "fluid": false
+    },
+    "name": "check-if",
+    "description": "A tiny utility library to validate string inputs, typically used in forms.",
+    "author": "Bernardo Raposo <hi@bernardoraposo.com> (https://github.com/braposo)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/braposo/check-if.git"
+    },
+    "homepage": "https://github.com/braposo/check-if#readme",
+    "keywords": [
+        "validation",
+        "form",
+        "error",
+        "js",
+        "string"
+    ],
+    "module": "dist/check-if.esm.js",
+    "devDependencies": {
+        "husky": "^4.2.5",
+        "tsdx": "^0.13.2",
+        "tslib": "^2.0.0",
+        "typescript": "^3.9.7"
+    }
+}
