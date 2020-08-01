@@ -34,14 +34,14 @@
         "jsxBracketSameLine": false,
         "fluid": false
     },
-    "name": "check-if",
+    "name": "checkif",
     "description": "A tiny utility library to validate string inputs, typically used in forms.",
     "author": "Bernardo Raposo <hi@bernardoraposo.com> (https://github.com/braposo)",
     "repository": {
         "type": "git",
-        "url": "https://github.com/braposo/check-if.git"
+        "url": "https://github.com/braposo/checkif.git"
     },
-    "homepage": "https://github.com/braposo/check-if#readme",
+    "homepage": "https://github.com/braposo/checkif#readme",
     "keywords": [
         "validation",
         "form",
@@ -49,7 +49,7 @@
         "js",
         "string"
     ],
-    "module": "dist/check-if.esm.js",
+    "module": "dist/checkif.esm.js",
     "devDependencies": {
         "husky": "^4.2.5",
         "tsdx": "^0.13.2",
