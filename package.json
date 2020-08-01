@@ -34,7 +34,7 @@
         "jsxBracketSameLine": false,
         "fluid": false
     },
-    "name": "checkif",
+    "name": "@braposo/checkif",
     "description": "A tiny utility library to validate string inputs, typically used in forms.",
     "author": "Bernardo Raposo <hi@bernardoraposo.com> (https://github.com/braposo)",
     "repository": {
